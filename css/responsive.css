@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+    .show-mobile {
+        display: flex;
+    }
+    .container,
+    .header,
+    .header-resume {
+        margin-top: 0;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .header-resume .photo {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .header-resume .btn-like {
+        width: 42px;
+        height: 42px;
+    }
+    .header-resume .short-header-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .video-interview .video-interview-inner {
+        border: none;
+        width: 100%;
+        box-shadow: inset 0px -1px 0px #EEF2F4;
+        border-radius: 4px;
+    }
+    .video-interview .interview-desc {
+        margin-right: 20px;
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev {
+        left: 0;
+    }
+    .mfp-container.mfp-image-holder,
+    .mfp-content {
+        height: 100%;
+    }
+    .mfp-content,
+    .mfp-figure {
+        margin: 0;
+    }
+    .mfp-content,
+    .mfp-img {
+        border-radius: 0;
+    }
+    .mfp-figure .mfp-bottom-bar {
+        position: absolute;
+        bottom: 0;
+        background: rgba(27, 28, 30, 0.75);
+        width: 100%;
+        color: #fff;
+        margin: 0;
+    }
+    .mfp-figure .mfp-img {
+        width: 100%;
+        border-radius: 0;
+        height: 100%;
+        max-width: unset!important;
+        max-height: unset!important;
+        position: absolute;
+        padding-top: 45px;
+        background: rgba(27, 28, 30, 0.75);
+    }
+    .mfp-container.mfp-image-holder .mfp-arrow {
+        display: none;
+    }
+    .mfp-wrap {
+        height: 100%;
+        margin: 0;
+    }
+    .mfp-figure .mfp-close {
+        z-index: 10;
+        font-size: 25px;
+        color: #fff;
+        position: absolute;
+        left: -500px;
+        top: 2px;
+    }
+    .mfp-zoom-out-cur .main {
+        margin: 0;
+    }
+}
+@media (min-width: 769px) {
+    .hide-mobile {
+        display: flex;
+    }
+    .show-mobile {
+        display: none;
+    }
+    .sidebar {
+        margin-top: -30px;
+    }
+    .col-md-4 {
+        padding-left: 55px;
+    }
+}
